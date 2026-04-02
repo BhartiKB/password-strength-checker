@@ -10,17 +10,15 @@ A simple full-stack cybersecurity mini project built with Flask, HTML, CSS, and 
 - Simple and clean UI
 
 ## Project Structure
-password-strength-checker/
-│── app.py # Main Flask backend
-│── requirements.txt # Dependencies
-│── README.md # Project documentation
-│
-├── templates/
-│ └── index.html # Frontend HTML
-│
-└── static/
-├── style.css # Styling
-└── script.js # Frontend logic
+- password-strength-checker
+  - app.py
+  - requirements.txt
+  - README.md
+  - templates
+    - index.html
+  - static
+    - style.css
+    - script.js
 
 ## Run locally
 ```bash
