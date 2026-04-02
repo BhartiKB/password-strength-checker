@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Password Strength Checker</h1>
+        <p class="subtitle">Check password strength and see whether it appears in known breaches.</p>
+
+        <div class="card">
+            <label for="password">Enter Password</label>
+            <div class="input-row">
+                <input type="password" id="password" placeholder="Type your password">
+                <button id="toggleBtn" type="button">Show</button>
+            </div>
+
+            <div class="button-row">
+                <button id="checkBtn">Check Strength</button>
+                <button id="generateBtn" class="secondary">Generate Strong Password</button>
+            </div>
+
+            <div id="result" class="hidden">
+                <h3>Result</h3>
+                <p><strong>Strength:</strong> <span id="strengthText">-</span></p>
+                <div class="progress-bar">
+                    <div id="progressFill"></div>
+                </div>
+
+                <div id="breachBox" class="breach-box hidden"></div>
+
+                <div>
+                    <strong>Suggestions:</strong>
+                    <ul id="suggestionsList"></ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
