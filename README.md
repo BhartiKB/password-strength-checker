@@ -9,16 +9,42 @@ A simple full-stack cybersecurity mini project built with Flask, HTML, CSS, and 
 - Strong password generator
 - Simple and clean UI
 
+# Password Strength Checker
+
+A simple full-stack cybersecurity mini project built using Flask, HTML, CSS, and JavaScript. It checks password strength, gives improvement suggestions, generates strong passwords, and checks whether a password appears in known breach results.
+
+## Live Demo
+
+[View Live Project](YOUR_RENDER_LINK_HERE)
+
+## Features
+
+- Password strength analysis
+- Suggestions to improve weak passwords
+- Breach lookup using Have I Been Pwned k-anonymity API
+- Strong password generator
+- Simple and clean UI
+
+## Tech Stack
+
+- Python
+- Flask
+- HTML
+- CSS
+- JavaScript
+
 ## Project Structure
-- password-strength-checker
-  - app.py
-  - requirements.txt
-  - README.md
-  - templates
-    - index.html
-  - static
-    - style.css
-    - script.js
+
+```text
+password-strength-checker/
+|__ app.py
+|__ requirements.txt
+|__ README.md
+|__ templates/
+|   |__ index.html
+|__ static/
+|   |__ style.css
+|   |__ script.js
 
 ## Run locally
 ```bash
@@ -38,3 +64,7 @@ Start command:
 ```bash
 gunicorn app:app
 ```
+
+## Live Demo
+[View Live Project](https://password-strength-checker-pd50.onrender.com/)
+
