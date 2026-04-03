@@ -13,10 +13,6 @@ A simple full-stack cybersecurity mini project built with Flask, HTML, CSS, and 
 
 A simple full-stack cybersecurity mini project built using Flask, HTML, CSS, and JavaScript. It checks password strength, gives improvement suggestions, generates strong passwords, and checks whether a password appears in known breach results.
 
-## Live Demo
-
-[View Live Project](YOUR_RENDER_LINK_HERE)
-
 ## Features
 
 - Password strength analysis
